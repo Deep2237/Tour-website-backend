@@ -3,11 +3,11 @@ import dotenv from 'dotenv'
 import mongoose from "mongoose"
 import cors from "cors"
 import cookieParser from "cookie-parser"
-import tourRoute from '../backend/routes/tours'
-import userRoute from '../backend/routes/users'
-import authRoute from '../backend/routes/auth'
-import reviewRoute from '../backend/routes/reviews'
-import bookingRoute from '../backend/routes/booking'
+import tourRoute from '../backend/routes/tours.js'
+import userRoute from '../backend/routes/users.js'
+import authRoute from '../backend/routes/auth.js'
+import reviewRoute from '../backend/routes/reviews.js'
+import bookingRoute from '../backend/routes/booking.js'
 
 
 dotenv.config()
